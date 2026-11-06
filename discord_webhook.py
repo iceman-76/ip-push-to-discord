@@ -1,7 +1,7 @@
 import requests
 import socket
 
-# Your Discord webhook URL; Reaplce [longnumbercomeshere] with your webhook number form Discord
+# Your Discord webhook URL; Replace [longnumbercomeshere] with your webhook number from the Discord channel
 WEBHOOK_URL = "https://discord.com/api/webhooks/[longnumbercomeshere]"
 
 def get_ip(version="ipv4"):
