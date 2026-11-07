@@ -31,7 +31,7 @@ if __name__ == "__main__":
     ipv4 = get_ip("ipv4")
     ipv6 = get_ip("ipv6")
 
-    # Build the message based on what we found - we do the rocket thingy so the message doesn't start on the same line as the Discor Bot message
+    # Build the message based on what we found - we do the rocket thingy so the message doesn't start on the same line as the Discord Bot message
     message_lines = ["🚀", f"🖥️ **Host** (This message is coming from): `{hostname}`"]
     message_lines.append("🌐 **Public IPs:**")
     message_lines.append(f"- IPv4: `{ipv4 if ipv4 else 'Not available'}`")
