@@ -9,5 +9,5 @@ Here is how it looks:
 - Select ```Integrations``` / ```Create Webhook```
 - You can add a name and then click ```Copy Webhook URL```
 
-That's what you will copy in the line in the Python script:
+That's what you will copy in the line in the Python script:  
 ```WEBHOOK_URL = "https://discord.com/api/webhooks/[longnumbercomeshere]"```
